@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const profileSchema = mongoose.Schema(
     {
@@ -13,8 +13,6 @@ const profileSchema = mongoose.Schema(
             default: 12
         }
     }
-)
+);
 
-const Profile = mongoose.model('Profile', profileSchema);
-
-module.exports = Profile;
+module.exports = mongoose.model('Profile', profileSchema);
