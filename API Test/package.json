@@ -17,6 +17,7 @@
     "mongoose": "^9.1.2"
   },
   "devDependencies": {
+    "@vercel/node": "^3.0.0",
     "nodemon": "^3.1.11"
   }
 }
