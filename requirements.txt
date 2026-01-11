@@ -1,5 +1,0 @@
-elevenlabs
-pyaudio
-openai
-dotenv
-pillow
